@@ -1,6 +1,6 @@
 public class Cono{
 	private double radio;//Declaración de variables
-	private double pi=3.1416;
+	private double pi=3.1416;//de tipo double
 	private double altura;
 	public Cono (double radio, double altura){//constructor
 		this.radio=radio;
