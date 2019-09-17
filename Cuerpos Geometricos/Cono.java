@@ -14,12 +14,12 @@ public class Cono{
 		return pi*radio*(Math.sqrt(Math.pow(radio,2)+Math.pow(altura,2))+radio);
 	}
 	public double volumenCono(){//metodo para obtener el volumen del cono en terminos del radio de la base y altura
-		return (1/3)*pi*Math.pow(radio,2)*altura;
+		return (pi*Math.pow(radio,2)*altura)/3;
 	}
 	public void impresionArea(){//metodo para imprimir el resultado del area
-		System.out.println("El area de tu cono es: "+areaCono());
+		System.out.println("El area de tu cono es: "+areaCono()+ " unidades cuadradas");
 	}
 	public void impresionVolumen(){//metodo para imprimir el resultado del volumen
-		System.out.println("El volumen de tu cono es: "+volumenCono());
+		System.out.println("El volumen de tu cono es: "+volumenCono()+" unidades cubicas");
 	}
 }
