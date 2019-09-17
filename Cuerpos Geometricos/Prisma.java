@@ -40,6 +40,6 @@ public class Prisma{
 	}
 
 	public void impArea(){
-		System.out.println("El area superficial de la figura es: " + areaTotal() + "unidades cuadradas");
+		System.out.println("El area superficial de la figura es: " + areaTotal() + " unidades cuadradas");
 	}
 }

@@ -15,13 +15,13 @@ public class Esfera{
 	}
 
 	public double volumen(){
-		return (4/3)*pi*(Math.pow(radio,3));
+		return (4*pi*(Math.pow(radio,3)))/3;
 	}
 
 	public void imprimirArea(){
-		System.out.println("El area de la esfera es: " + area());
+		System.out.println("El area de la esfera es: " + area()+ " unidades cuadradas");
 	}
 	 public void imprimirVolumen(){
-	 	System.out.println("El volumen de la esfera es: " + volumen());
+	 	System.out.println("El volumen de la esfera es: " + volumen()+" unidades cubicas");
 	 }
 }
