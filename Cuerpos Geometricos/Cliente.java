@@ -42,7 +42,7 @@ public class Cliente {
                     double lado=sc.nextDouble();
                     System.out.println("Ingrese el valor del apotema");
                     double apotema=sc.nextDouble();
-                    System.out.println("Ingrese la altura del cono");
+                    System.out.println("Ingrese la altura del prisma");
                     altura=sc.nextDouble();
                     Prisma prisma=new Prisma(lado, altura, n_lado, apotema);
                     prisma.impArea();
